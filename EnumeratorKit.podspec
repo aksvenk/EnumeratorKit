@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'EnumeratorKit'
-  s.version      = '0.1.1-alpha'
+  s.version      = '0.1.2-alpha'
 
   s.summary      = 'Ruby-style enumeration in Objective-C.'
   s.description  = <<-EOS
