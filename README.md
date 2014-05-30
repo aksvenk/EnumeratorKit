@@ -1,5 +1,7 @@
 # EnumeratorKit — Ruby-style enumeration in Objective-C
 
+[![Build Status](https://travis-ci.org/sharplet/EnumeratorKit.svg?branch=master)](https://travis-ci.org/sharplet/EnumeratorKit)
+
 EnumeratorKit is a collection enumeration library modelled after Ruby's
 `Enumerable` module and `Enumerator` class.
 
@@ -144,6 +146,8 @@ operations:
    block returns `YES`
  - `-find` — return the first element for which the block returns
    `YES`, or `nil`
+ - `-any` — check if an element in the collection passes the block
+ - `-all` — check if all elements in the collection pass the block
  - `-sort` — return a sorted array (items in the collection must
    respond to `compare:`)
  - `-sortWith` — like `-sort`, but allows you to specify an

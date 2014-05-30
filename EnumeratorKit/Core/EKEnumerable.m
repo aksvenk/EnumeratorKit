@@ -60,7 +60,7 @@
     NSMutableDictionary *dict = [NSMutableDictionary new];
     [self each:^(id obj) {
         NSDictionary *entry = block(obj);
-        NSAssert([entry count] <= 1, @"Expected a dictionary with no more than 1 entry (%d entries)", [entry count]);
+        NSAssert([entry count] <= 1, @"Expected a dictionary with no more than 1 entry (%lu entries)", (unsigned long)[entry count]);
 
         [dict addEntriesFromDictionary:entry];
     }];
@@ -225,6 +225,23 @@
     return nil;
 }
 
+- (BOOL)any:(BOOL (^)(id obj))block
+{
+    return [self find:block] != nil;
+}
+
+- (BOOL)all:(BOOL (^)(id obj))block
+{
+    id next;
+    EKEnumerator *e = self.asEnumerator;
+    while ((next = e.next)) {
+        if (!block(next)) {
+            return NO;
+        }
+    }
+    return YES;
+}
+
 
 #pragma mark Other methods
 
@@ -233,7 +250,7 @@
     NSMutableArray *result = [NSMutableArray array];
     EKEnumerator *e = self.asEnumerator;
 
-    NSUInteger count = 0;
+    NSInteger count = 0;
     while (e.peek && (number < 0 || ++count <= number)) {
         [result addObject:e.next];
     }
@@ -389,7 +406,7 @@
     unsigned int methodCount;
     Method *methods = class_copyMethodList([EKEnumerable class], &methodCount);
 
-    for (int i = 0; i < methodCount; i++) {
+    for (unsigned i = 0; i < methodCount; i++) {
         SEL name = method_getName(methods[i]);
         IMP imp = method_getImplementation(methods[i]);
         const char *types = method_getTypeEncoding(methods[i]);
