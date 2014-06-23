@@ -1,4 +1,4 @@
-Pods/
 xcuserdata/
 Build/
-*.xcworkspace/
+appledoc/
+*.xccheckout

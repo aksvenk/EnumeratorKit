@@ -7,36 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E07F2E7B99D439C8D343248 /* libPods-Specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2FE23C509349279B73E901 /* libPods-Specs.a */; };
 		4A20CDC8177C31D1004E510D /* EKSerialOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A20CDC7177C31D1004E510D /* EKSerialOperationQueue.m */; };
-		4A20CDCA177C3297004E510D /* EKSerialOperationQueueSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A20CDC9177C3297004E510D /* EKSerialOperationQueueSpec.m */; };
-		4A37C9AB17507B0B004A052E /* NSObjectIncludeEKEnumerableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A37C9A917507AB1004A052E /* NSObjectIncludeEKEnumerableSpec.m */; };
+		4A505318179E74930002630C /* NSArray+EKFlatten.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A505317179E74930002630C /* NSArray+EKFlatten.m */; };
 		4A506141177C453E0043C974 /* EKSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A506140177C453E0043C974 /* EKSemaphore.m */; };
-		4A531296177D70EF009F9180 /* EKSemaphoreSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A531295177D70EF009F9180 /* EKSemaphoreSpec.m */; };
+		4A6A09F5185F97900053DAE2 /* EKEnumerableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC3BB7A174B6D9100108331 /* EKEnumerableSpec.m */; };
+		4A6A09F6185F97BB0053DAE2 /* libEnumeratorKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC073BA174AC561005FA8E5 /* libEnumeratorKit.a */; };
+		4A6A09FF185FA4A80053DAE2 /* EKEnumerableNSDictionarySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB2E071754184D009AC260 /* EKEnumerableNSDictionarySpec.m */; };
+		4A6A0A00185FA4A80053DAE2 /* EKEnumerableNSSetSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB2E0C175452EB009AC260 /* EKEnumerableNSSetSpec.m */; };
+		4A6A0A01185FA4A80053DAE2 /* EKEnumerableNSOrderedSetSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB2E11175457AF009AC260 /* EKEnumerableNSOrderedSetSpec.m */; };
+		4A6A0A02185FA4A80053DAE2 /* EKEnumeratorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD3D58F175348CD0050CE35 /* EKEnumeratorSpec.m */; };
+		4A6A0A03185FA4A80053DAE2 /* EKFiberSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC073F9174AC90E005FA8E5 /* EKFiberSpec.m */; };
+		4A6A0A04185FA4A80053DAE2 /* EKSemaphoreSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A531295177D70EF009F9180 /* EKSemaphoreSpec.m */; };
+		4A6A0A05185FA4A80053DAE2 /* EKSerialOperationQueueSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A20CDC9177C3297004E510D /* EKSerialOperationQueueSpec.m */; };
+		4A6A0A06185FA4A80053DAE2 /* NSObjectIncludeEKEnumerableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A37C9A917507AB1004A052E /* NSObjectIncludeEKEnumerableSpec.m */; };
+		4A6A0A07185FA4A80053DAE2 /* NSObjectAsEKEnumeratorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD3D59417534E8A0050CE35 /* NSObjectAsEKEnumeratorSpec.m */; };
+		4A6A0A08185FA4A80053DAE2 /* NSArrayEKFlattenSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A505314179E746B0002630C /* NSArrayEKFlattenSpec.m */; };
+		4A6A0A09185FA4A80053DAE2 /* SortedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB2E251755F42F009AC260 /* SortedList.m */; };
 		4AC073BB174AC561005FA8E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB6FA971740C5AE00DDBAD4 /* Foundation.framework */; };
-		4AC073C9174AC561005FA8E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB6FAB31740C5AE00DDBAD4 /* SenTestingKit.framework */; };
-		4AC073CB174AC561005FA8E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB6FA971740C5AE00DDBAD4 /* Foundation.framework */; };
 		4AC073E0174AC629005FA8E5 /* NSArray+EKEnumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC073DF174AC629005FA8E5 /* NSArray+EKEnumerable.m */; };
 		4AC073E4174AC6FB005FA8E5 /* EKFiber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC073E3174AC6FB005FA8E5 /* EKFiber.m */; };
-		4AC073FA174AC90E005FA8E5 /* EKFiberSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC073F9174AC90E005FA8E5 /* EKFiberSpec.m */; };
 		4AC073FB174ACCAF005FA8E5 /* EKEnumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6FAD61740D97100DDBAD4 /* EKEnumerable.m */; };
 		4AC073FC174ACCAF005FA8E5 /* EKEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6FAD01740D56E00DDBAD4 /* EKEnumerator.m */; };
-		4ACB2E0217541534009AC260 /* libEnumeratorKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC073BA174AC561005FA8E5 /* libEnumeratorKit.a */; };
 		4ACB2E061754161C009AC260 /* NSDictionary+EKEnumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB2E051754161C009AC260 /* NSDictionary+EKEnumerable.m */; };
-		4ACB2E081754184D009AC260 /* EKEnumerableNSDictionarySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB2E071754184D009AC260 /* EKEnumerableNSDictionarySpec.m */; };
 		4ACB2E0B17541B6E009AC260 /* NSSet+EKEnumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB2E0A17541B6E009AC260 /* NSSet+EKEnumerable.m */; };
-		4ACB2E0D175452EB009AC260 /* EKEnumerableNSSetSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB2E0C175452EB009AC260 /* EKEnumerableNSSetSpec.m */; };
 		4ACB2E1017545532009AC260 /* NSOrderedSet+EKEnumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB2E0F17545532009AC260 /* NSOrderedSet+EKEnumerable.m */; };
-		4ACB2E12175457AF009AC260 /* EKEnumerableNSOrderedSetSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB2E11175457AF009AC260 /* EKEnumerableNSOrderedSetSpec.m */; };
-		4ACB2E261755F42F009AC260 /* SortedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB2E251755F42F009AC260 /* SortedList.m */; };
-		4AD3D58E1751AD7A0050CE35 /* EKEnumerableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC3BB7A174B6D9100108331 /* EKEnumerableSpec.m */; };
-		4AD3D590175348CD0050CE35 /* EKEnumeratorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD3D58F175348CD0050CE35 /* EKEnumeratorSpec.m */; };
+		4AD1308A185C0C3B003E7145 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD13089185C0C3B003E7145 /* XCTest.framework */; };
+		4AD1308B185C0C3B003E7145 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB6FA971740C5AE00DDBAD4 /* Foundation.framework */; };
 		4AD3D59317534ACD0050CE35 /* NSObject+EKEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD3D59217534ACD0050CE35 /* NSObject+EKEnumerator.m */; };
-		4AD3D59517534E8A0050CE35 /* NSObjectAsEKEnumeratorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD3D59417534E8A0050CE35 /* NSObjectAsEKEnumeratorSpec.m */; };
-		FAEE85CCB014462F9B7D988F /* libPods-EnumeratorKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 226A8EF07A29465E938B2D19 /* libPods-EnumeratorKitTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4AC073CC174AC561005FA8E5 /* PBXContainerItemProxy */ = {
+		4AD13097185C0C3C003E7145 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4AB6FA8A1740C5AE00DDBAD4 /* Project object */;
 			proxyType = 1;
@@ -63,6 +65,9 @@
 		4A20CDC7177C31D1004E510D /* EKSerialOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSerialOperationQueue.m; sourceTree = "<group>"; };
 		4A20CDC9177C3297004E510D /* EKSerialOperationQueueSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSerialOperationQueueSpec.m; sourceTree = "<group>"; };
 		4A37C9A917507AB1004A052E /* NSObjectIncludeEKEnumerableSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectIncludeEKEnumerableSpec.m; sourceTree = "<group>"; };
+		4A505314179E746B0002630C /* NSArrayEKFlattenSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayEKFlattenSpec.m; sourceTree = "<group>"; };
+		4A505316179E74930002630C /* NSArray+EKFlatten.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+EKFlatten.h"; sourceTree = "<group>"; };
+		4A505317179E74930002630C /* NSArray+EKFlatten.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+EKFlatten.m"; sourceTree = "<group>"; };
 		4A50613F177C453E0043C974 /* EKSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKSemaphore.h; sourceTree = "<group>"; };
 		4A506140177C453E0043C974 /* EKSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSemaphore.m; sourceTree = "<group>"; };
 		4A531295177D70EF009F9180 /* EKSemaphoreSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSemaphoreSpec.m; sourceTree = "<group>"; };
@@ -74,7 +79,6 @@
 		4AB6FAD61740D97100DDBAD4 /* EKEnumerable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = EKEnumerable.m; sourceTree = "<group>"; };
 		4AC073BA174AC561005FA8E5 /* libEnumeratorKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEnumeratorKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC073BE174AC561005FA8E5 /* EnumeratorKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EnumeratorKit-Prefix.pch"; sourceTree = "<group>"; };
-		4AC073C8174AC561005FA8E5 /* EnumeratorKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnumeratorKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC073DE174AC629005FA8E5 /* NSArray+EKEnumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSArray+EKEnumerable.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		4AC073DF174AC629005FA8E5 /* NSArray+EKEnumerable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSArray+EKEnumerable.m"; sourceTree = "<group>"; };
 		4AC073E2174AC6FB005FA8E5 /* EKFiber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = EKFiber.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -93,11 +97,14 @@
 		4ACB2E11175457AF009AC260 /* EKEnumerableNSOrderedSetSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKEnumerableNSOrderedSetSpec.m; sourceTree = "<group>"; };
 		4ACB2E241755F42F009AC260 /* SortedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortedList.h; sourceTree = "<group>"; };
 		4ACB2E251755F42F009AC260 /* SortedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortedList.m; sourceTree = "<group>"; };
+		4AD13088185C0C3B003E7145 /* Specs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Specs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD13089185C0C3B003E7145 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4AD3D58F175348CD0050CE35 /* EKEnumeratorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKEnumeratorSpec.m; sourceTree = "<group>"; };
 		4AD3D59117534ACD0050CE35 /* NSObject+EKEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EKEnumerator.h"; sourceTree = "<group>"; };
 		4AD3D59217534ACD0050CE35 /* NSObject+EKEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EKEnumerator.m"; sourceTree = "<group>"; };
 		4AD3D59417534E8A0050CE35 /* NSObjectAsEKEnumeratorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectAsEKEnumeratorSpec.m; sourceTree = "<group>"; };
-		73DAA49542C4411784916871 /* Pods-EnumeratorKitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnumeratorKitTests.xcconfig"; path = "Pods/Pods-EnumeratorKitTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		8C2FE23C509349279B73E901 /* libPods-Specs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Specs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BC90CACB134E8F800CCA89 /* Pods-Specs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.xcconfig"; path = "Pods/Pods-Specs.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,14 +116,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4AC073C4174AC561005FA8E5 /* Frameworks */ = {
+		4AD13085185C0C3B003E7145 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AC073C9174AC561005FA8E5 /* SenTestingKit.framework in Frameworks */,
-				4AC073CB174AC561005FA8E5 /* Foundation.framework in Frameworks */,
-				4ACB2E0217541534009AC260 /* libEnumeratorKit.a in Frameworks */,
-				FAEE85CCB014462F9B7D988F /* libPods-EnumeratorKitTests.a in Frameworks */,
+				4AD1308A185C0C3B003E7145 /* XCTest.framework in Frameworks */,
+				4AD1308B185C0C3B003E7145 /* Foundation.framework in Frameworks */,
+				4A6A09F6185F97BB0053DAE2 /* libEnumeratorKit.a in Frameworks */,
+				3E07F2E7B99D439C8D343248 /* libPods-Specs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +137,7 @@
 				4AC073CF174AC561005FA8E5 /* Tests */,
 				4AB6FA941740C5AE00DDBAD4 /* Frameworks */,
 				4AB6FA931740C5AE00DDBAD4 /* Products */,
-				73DAA49542C4411784916871 /* Pods-EnumeratorKitTests.xcconfig */,
+				A3BC90CACB134E8F800CCA89 /* Pods-Specs.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,7 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				4AC073BA174AC561005FA8E5 /* libEnumeratorKit.a */,
-				4AC073C8174AC561005FA8E5 /* EnumeratorKitTests.octest */,
+				4AD13088185C0C3B003E7145 /* Specs.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,7 +155,9 @@
 			children = (
 				4AB6FA971740C5AE00DDBAD4 /* Foundation.framework */,
 				4AB6FAB31740C5AE00DDBAD4 /* SenTestingKit.framework */,
+				4AD13089185C0C3B003E7145 /* XCTest.framework */,
 				226A8EF07A29465E938B2D19 /* libPods-EnumeratorKitTests.a */,
+				8C2FE23C509349279B73E901 /* libPods-Specs.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -185,6 +194,7 @@
 				4A20CDC9177C3297004E510D /* EKSerialOperationQueueSpec.m */,
 				4A37C9A917507AB1004A052E /* NSObjectIncludeEKEnumerableSpec.m */,
 				4AD3D59417534E8A0050CE35 /* NSObjectAsEKEnumeratorSpec.m */,
+				4A505314179E746B0002630C /* NSArrayEKFlattenSpec.m */,
 				4ACB2E231755F403009AC260 /* Shared */,
 			);
 			path = Tests;
@@ -212,6 +222,8 @@
 				4AB6FAD01740D56E00DDBAD4 /* EKEnumerator.m */,
 				4AC073DE174AC629005FA8E5 /* NSArray+EKEnumerable.h */,
 				4AC073DF174AC629005FA8E5 /* NSArray+EKEnumerable.m */,
+				4A505316179E74930002630C /* NSArray+EKFlatten.h */,
+				4A505317179E74930002630C /* NSArray+EKFlatten.m */,
 				4ACB2E041754161C009AC260 /* NSDictionary+EKEnumerable.h */,
 				4ACB2E051754161C009AC260 /* NSDictionary+EKEnumerable.m */,
 				4ACB2E0917541B6E009AC260 /* NSSet+EKEnumerable.h */,
@@ -243,6 +255,7 @@
 				4AC073B6174AC561005FA8E5 /* Sources */,
 				4AC073B7174AC561005FA8E5 /* Frameworks */,
 				4AC073B8174AC561005FA8E5 /* CopyFiles */,
+				4A86564717B4D7000045DB54 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -253,26 +266,25 @@
 			productReference = 4AC073BA174AC561005FA8E5 /* libEnumeratorKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		4AC073C7174AC561005FA8E5 /* EnumeratorKitTests */ = {
+		4AD13087185C0C3B003E7145 /* Specs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AC073DB174AC561005FA8E5 /* Build configuration list for PBXNativeTarget "EnumeratorKitTests" */;
+			buildConfigurationList = 4AD1309B185C0C3C003E7145 /* Build configuration list for PBXNativeTarget "Specs" */;
 			buildPhases = (
-				C7C2C3F954684D65A5DCCE6D /* Check Pods Manifest.lock */,
-				4AC073C3174AC561005FA8E5 /* Sources */,
-				4AC073C4174AC561005FA8E5 /* Frameworks */,
-				4AC073C5174AC561005FA8E5 /* Resources */,
-				4AC073C6174AC561005FA8E5 /* ShellScript */,
-				3217EDFE52654083B2463A83 /* Copy Pods Resources */,
+				A15B7F97BFCA4F48B949B062 /* Check Pods Manifest.lock */,
+				4AD13084185C0C3B003E7145 /* Sources */,
+				4AD13085185C0C3B003E7145 /* Frameworks */,
+				4AD13086185C0C3B003E7145 /* Resources */,
+				0CDB5B4949A94BE49E0FE2D8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4AC073CD174AC561005FA8E5 /* PBXTargetDependency */,
+				4AD13098185C0C3C003E7145 /* PBXTargetDependency */,
 			);
-			name = EnumeratorKitTests;
-			productName = EnumeratorKitTests;
-			productReference = 4AC073C8174AC561005FA8E5 /* EnumeratorKitTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			name = Specs;
+			productName = Specs;
+			productReference = 4AD13088185C0C3B003E7145 /* Specs.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -280,10 +292,11 @@
 		4AB6FA8A1740C5AE00DDBAD4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Adam Sharp";
 				TargetAttributes = {
-					4AC073C7174AC561005FA8E5 = {
+					4AD13087185C0C3B003E7145 = {
 						TestTargetID = 4AC073B9174AC561005FA8E5;
 					};
 				};
@@ -301,13 +314,13 @@
 			projectRoot = "";
 			targets = (
 				4AC073B9174AC561005FA8E5 /* EnumeratorKit */,
-				4AC073C7174AC561005FA8E5 /* EnumeratorKitTests */,
+				4AD13087185C0C3B003E7145 /* Specs */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4AC073C5174AC561005FA8E5 /* Resources */ = {
+		4AD13086185C0C3B003E7145 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -317,7 +330,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3217EDFE52654083B2463A83 /* Copy Pods Resources */ = {
+		0CDB5B4949A94BE49E0FE2D8 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,9 +342,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-EnumeratorKitTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Pods-Specs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-		4AC073C6174AC561005FA8E5 /* ShellScript */ = {
+		4A86564717B4D7000045DB54 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -342,9 +356,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			shellScript = "rake docs";
+			showEnvVarsInLog = 0;
 		};
-		C7C2C3F954684D65A5DCCE6D /* Check Pods Manifest.lock */ = {
+		A15B7F97BFCA4F48B949B062 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -356,7 +371,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sanbox is not in sync with the Podfile.lock. Run 'pod install'.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -375,34 +391,36 @@
 				4A20CDC8177C31D1004E510D /* EKSerialOperationQueue.m in Sources */,
 				4ACB2E0B17541B6E009AC260 /* NSSet+EKEnumerable.m in Sources */,
 				4ACB2E1017545532009AC260 /* NSOrderedSet+EKEnumerable.m in Sources */,
+				4A505318179E74930002630C /* NSArray+EKFlatten.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4AC073C3174AC561005FA8E5 /* Sources */ = {
+		4AD13084185C0C3B003E7145 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AC073FA174AC90E005FA8E5 /* EKFiberSpec.m in Sources */,
-				4A37C9AB17507B0B004A052E /* NSObjectIncludeEKEnumerableSpec.m in Sources */,
-				4AD3D58E1751AD7A0050CE35 /* EKEnumerableSpec.m in Sources */,
-				4AD3D590175348CD0050CE35 /* EKEnumeratorSpec.m in Sources */,
-				4AD3D59517534E8A0050CE35 /* NSObjectAsEKEnumeratorSpec.m in Sources */,
-				4ACB2E081754184D009AC260 /* EKEnumerableNSDictionarySpec.m in Sources */,
-				4A20CDCA177C3297004E510D /* EKSerialOperationQueueSpec.m in Sources */,
-				4ACB2E0D175452EB009AC260 /* EKEnumerableNSSetSpec.m in Sources */,
-				4ACB2E12175457AF009AC260 /* EKEnumerableNSOrderedSetSpec.m in Sources */,
-				4A531296177D70EF009F9180 /* EKSemaphoreSpec.m in Sources */,
-				4ACB2E261755F42F009AC260 /* SortedList.m in Sources */,
+				4A6A09FF185FA4A80053DAE2 /* EKEnumerableNSDictionarySpec.m in Sources */,
+				4A6A0A00185FA4A80053DAE2 /* EKEnumerableNSSetSpec.m in Sources */,
+				4A6A0A01185FA4A80053DAE2 /* EKEnumerableNSOrderedSetSpec.m in Sources */,
+				4A6A0A02185FA4A80053DAE2 /* EKEnumeratorSpec.m in Sources */,
+				4A6A0A03185FA4A80053DAE2 /* EKFiberSpec.m in Sources */,
+				4A6A0A04185FA4A80053DAE2 /* EKSemaphoreSpec.m in Sources */,
+				4A6A0A05185FA4A80053DAE2 /* EKSerialOperationQueueSpec.m in Sources */,
+				4A6A0A06185FA4A80053DAE2 /* NSObjectIncludeEKEnumerableSpec.m in Sources */,
+				4A6A0A07185FA4A80053DAE2 /* NSObjectAsEKEnumeratorSpec.m in Sources */,
+				4A6A0A08185FA4A80053DAE2 /* NSArrayEKFlattenSpec.m in Sources */,
+				4A6A0A09185FA4A80053DAE2 /* SortedList.m in Sources */,
+				4A6A09F5185F97900053DAE2 /* EKEnumerableSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4AC073CD174AC561005FA8E5 /* PBXTargetDependency */ = {
+		4AD13098185C0C3C003E7145 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4AC073B9174AC561005FA8E5 /* EnumeratorKit */;
-			targetProxy = 4AC073CC174AC561005FA8E5 /* PBXContainerItemProxy */;
+			targetProxy = 4AD13097185C0C3C003E7145 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -432,10 +450,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s i386 x86_64";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Debug;
 		};
@@ -457,70 +475,126 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				ONLY_ACTIVE_ARCH = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
 		4AC073D9174AC561005FA8E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				DSTROOT = /tmp/EnumeratorKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EnumeratorKit/EnumeratorKit-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "$(inherited)";
+				WARNING_CFLAGS = (
+					"-Wextra",
+					"-Wno-unused-parameter",
+					"-Wunreachable-code",
+				);
 			};
 			name = Debug;
 		};
 		4AC073DA174AC561005FA8E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				DSTROOT = /tmp/EnumeratorKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EnumeratorKit/EnumeratorKit-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "$(inherited)";
+				WARNING_CFLAGS = (
+					"-Wextra",
+					"-Wno-unused-parameter",
+					"-Wunreachable-code",
+				);
 			};
 			name = Release;
 		};
-		4AC073DC174AC561005FA8E5 /* Debug */ = {
+		4AD13099185C0C3C003E7145 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73DAA49542C4411784916871 /* Pods-EnumeratorKitTests.xcconfig */;
+			baseConfigurationReference = A3BC90CACB134E8F800CCA89 /* Pods-Specs.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				VALID_ARCHS = "$(inherited)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		4AC073DD174AC561005FA8E5 /* Release */ = {
+		4AD1309A185C0C3C003E7145 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73DAA49542C4411784916871 /* Pods-EnumeratorKitTests.xcconfig */;
+			baseConfigurationReference = A3BC90CACB134E8F800CCA89 /* Pods-Specs.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				VALID_ARCHS = "$(inherited)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -545,11 +619,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AC073DB174AC561005FA8E5 /* Build configuration list for PBXNativeTarget "EnumeratorKitTests" */ = {
+		4AD1309B185C0C3C003E7145 /* Build configuration list for PBXNativeTarget "Specs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AC073DC174AC561005FA8E5 /* Debug */,
-				4AC073DD174AC561005FA8E5 /* Release */,
+				4AD13099185C0C3C003E7145 /* Debug */,
+				4AD1309A185C0C3C003E7145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
