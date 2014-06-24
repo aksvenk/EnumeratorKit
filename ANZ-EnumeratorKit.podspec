@@ -24,12 +24,10 @@ Pod::Spec.new do |s|
   s.author       = { 'Adam Sharp' => 'adsharp@me.com' }
   s.source       = { :git => 'git@gitlab.local:grow/EnumeratorKit.git', :tag => "#{s.version}" }
 
-  s.source_files = 'EnumeratorKit/EnumeratorKit.h'
-
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |e|
-    e.source_files = 'EnumeratorKit/Core'
+    e.source_files = 'EnumeratorKit/EnumeratorKit.h', 'EnumeratorKit/Core'
 
     e.dependency 'EnumeratorKit/EKFiber'
   end
