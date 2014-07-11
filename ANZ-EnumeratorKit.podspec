@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'ANZ-EnumeratorKit'
-  s.version      = '0.1.1-alpha'
+  s.version      = '0.1.2'
 
   s.summary      = 'Ruby-style enumeration in Objective-C.'
   s.description  = <<-EOS
@@ -27,12 +27,11 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |e|
-    e.source_files = 'EnumeratorKit/EnumeratorKit.h', 'EnumeratorKit/Core'
-
+    e.source_files = 'EnumeratorKit/Core', 'EnumeratorKit/EnumeratorKit.h'
     e.dependency 'ANZ-EnumeratorKit/EKFiber'
   end
 
   s.subspec 'EKFiber' do |f|
-    f.source_files = 'EnumeratorKit/EKFiber'
+    f.source_files = 'EnumeratorKit/EKFiber', 'EnumeratorKit/EnumeratorKit.h'
   end
 end
