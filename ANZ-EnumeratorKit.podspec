@@ -26,6 +26,8 @@ Pod::Spec.new do |s|
 
   s.default_subspec = 'Core'
 
+  s.header_dir = 'EnumeratorKit'
+
   s.subspec 'Core' do |e|
     e.source_files = 'EnumeratorKit/Core', 'EnumeratorKit/EnumeratorKit.h'
     e.dependency 'ANZ-EnumeratorKit/EKFiber'
