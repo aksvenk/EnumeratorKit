@@ -118,6 +118,17 @@
 - (NSArray *)map:(id (^)(id obj))block;
 
 /**
+ A combination of `-map:` and `-eachWithIndex:`.
+
+ @param block A block that accepts an object and an `NSUInteger` index.
+
+ @return Returns a new array with the results of applying the block to
+    each element in the collection. The resulting array will always
+    have the same count as the receiver.
+ */
+- (NSArray *)mapWithIndex:(id (^)(id obj, NSUInteger i))block;
+
+/**
  Performs a `map:` with the block, returning a single flattened array
  as the result.
 
@@ -358,14 +369,6 @@
  */
 - (id)inject:(SEL)binaryOperation;
 
-/**
- Given an initial value, accumulates a result by "injecting" the
- operation between successive pairs of elements.
-
- @deprecated Use `inject:` or `reduce:` instead.
- */
-- (id)inject:(id)initial withOperation:(SEL)binaryOperation DEPRECATED_ATTRIBUTE;
-
 
 #pragma mark Searching and filtering
 /** @name Searching and filtering */
@@ -504,24 +507,6 @@
 /** Get an array */
 - (NSArray *)asArray;
 
-
-#pragma mark - Deprecated block property API
-
-- (id<EKEnumerable> (^)(void (^)(id obj)))each DEPRECATED_ATTRIBUTE;
-- (id<EKEnumerable> (^)(void (^)(id obj, NSUInteger i)))eachWithIndex DEPRECATED_ATTRIBUTE;
-- (NSArray * (^)(NSInteger))take DEPRECATED_ATTRIBUTE;
-- (NSArray * (^)(id (^)(id obj)))map DEPRECATED_ATTRIBUTE;
-- (NSArray * (^)(id (^)(id obj)))flattenMap DEPRECATED_ATTRIBUTE;
-- (NSDictionary * (^)(NSDictionary * (^)(id obj)))mapDictionary DEPRECATED_ATTRIBUTE;
-- (NSDictionary * (^)(id<NSCopying> (^)(id obj)))chunk DEPRECATED_ATTRIBUTE;
-- (NSArray * (^)(BOOL (^)(id obj)))select DEPRECATED_ATTRIBUTE;
-- (NSArray * (^)(BOOL (^)(id obj)))filter DEPRECATED_ATTRIBUTE;
-- (NSArray * (^)(BOOL (^)(id obj)))reject DEPRECATED_ATTRIBUTE;
-- (NSArray * (^)(NSComparator))sortWith DEPRECATED_ATTRIBUTE;
-- (NSArray * (^)(id (^)(id obj)))sortBy DEPRECATED_ATTRIBUTE;
-- (id (^)(BOOL (^)(id obj)))find DEPRECATED_ATTRIBUTE;
-- (id (^)(id (^)(id memo, id obj)))inject DEPRECATED_ATTRIBUTE;
-- (id (^)(id args, ...))reduce DEPRECATED_ATTRIBUTE;
 
 @end
 

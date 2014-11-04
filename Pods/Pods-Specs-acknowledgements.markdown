@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## Kiwi
+## ANZ-Kiwi
 
 Copyright (c) 2010, Allen Ding
 All rights reserved.
